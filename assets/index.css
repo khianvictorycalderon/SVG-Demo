@@ -1,0 +1,17 @@
+body {
+    background:rgb(32, 42, 44);
+    font-size:1.5rem;
+    color:white;
+}
+
+.circle {
+    fill: none;
+    stroke: blue; /* overrides the fill="red" */
+    stroke-width: 5;
+}
+
+.line {
+    stroke: white;
+    stroke-width: 24;
+    stroke-linecap: round;
+}
